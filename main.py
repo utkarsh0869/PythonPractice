@@ -135,6 +135,36 @@ def TwoD_Matrix_Practice():
             print(item, end="")
         print()
 
+def listMethods():
+    numbers = [3, 4, 2, 2, 6, 9, 10]
+    numbers.append(29)
+    print(numbers)
+
+    numbers.insert(0, 23)
+    print(numbers)
+
+    numbers.remove(4)
+    print(numbers)
+
+    # numbers.clear()
+
+    numbers.pop()
+    print(numbers)
+
+    print(numbers.index(23)) # first occurance
+
+    print(23 in numbers)
+
+    print(numbers.count(2))
+
+    numbers.sort()
+    numbers.reverse()
+    print(numbers)
+
+    numbers1 = numbers.copy()
+    numbers.append(10)
+    print(numbers1)
+
 # logicalOperation()
 # comparisonOperators()
 # weightConverter()
@@ -145,6 +175,7 @@ def TwoD_Matrix_Practice():
 # nestedForLoopToPrintF()
 # listsPractice()
 # findTheLargestNumberInTheList()
-TwoD_Matrix_Practice()
+# TwoD_Matrix_Practice()
+listMethods()
 
 
