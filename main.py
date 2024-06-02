@@ -122,6 +122,19 @@ def findTheLargestNumberInTheList():
 
     print(largest)
 
+def TwoD_Matrix_Practice():
+    matrix = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ]
+    print(matrix[0][2])
+
+    for row in matrix:
+        for item in row:
+            print(item, end="")
+        print()
+
 # logicalOperation()
 # comparisonOperators()
 # weightConverter()
@@ -131,6 +144,7 @@ def findTheLargestNumberInTheList():
 # forLoops()
 # nestedForLoopToPrintF()
 # listsPractice()
-findTheLargestNumberInTheList()
+# findTheLargestNumberInTheList()
+TwoD_Matrix_Practice()
 
 
