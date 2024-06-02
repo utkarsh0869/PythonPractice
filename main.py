@@ -162,8 +162,17 @@ def listMethods():
     print(numbers)
 
     numbers1 = numbers.copy()
-    numbers.append(10)
-    print(numbers1)
+    numbers1.append(10)
+    print(numbers)
+
+def removeDuplicatesFromList():
+    numbers = [2, 3, 5, 3, 4]
+    newlist = []
+    for i in numbers:
+        if(i not in newlist):
+            newlist.append(i)
+    
+    print(newlist)
 
 # logicalOperation()
 # comparisonOperators()
@@ -176,6 +185,7 @@ def listMethods():
 # listsPractice()
 # findTheLargestNumberInTheList()
 # TwoD_Matrix_Practice()
-listMethods()
+# listMethods()
+removeDuplicatesFromList()
 
 
